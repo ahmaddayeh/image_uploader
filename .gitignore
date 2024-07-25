@@ -1,0 +1,40 @@
+# Composer dependencies
+/vendor/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# IDE and editor files
+/.vscode/
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# System files
+*.bak
+*.swp
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Cache and session files
+/cache/
+/session/
+
+# Backup files
+*.bak
+*.tmp
+
+# Dependency directories
+node_modules/
+
+# Build directories
+/build/
