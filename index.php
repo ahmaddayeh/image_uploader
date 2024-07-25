@@ -101,7 +101,7 @@ function handleUserSession($openid_data, $client_id, $client_secret, $redirect_u
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                  <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+                  <link rel="icon" type="image/x-icon" href="https://www.ivao.aero/publrelat/branding/svg_logos/<?php echo $_ENV["division_id"]; ?>.svg">
                 <title>Access Denied</title>
                 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
             </head>
@@ -186,7 +186,7 @@ function displayUploader() {
     <head>
         <title>Image Uploader</title>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+        <link rel="icon" type="image/x-icon" href="https://www.ivao.aero/publrelat/branding/svg_logos/<?php echo $_ENV["division_id"]; ?>.svg">
         <style>
             * {
                 font-family: poppins;
